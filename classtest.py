@@ -3,8 +3,8 @@ class Answer():
         self.answers = answers
         self.listofanswer = []
 
-    def save_answer(self):
-        self.listofanswer.append(self.answers)
+    def save_answer(self, answer_param=''):
+        self.listofanswer.append(answer_param)
 
     def print_answers(self):
         for answer1 in self.listofanswer:
