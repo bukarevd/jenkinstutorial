@@ -8,7 +8,7 @@ class TestClass(unittest.TestCase):
         for response in responses:
           my_test.save_answer(response)
         for response in responses:
-           self.assertIn(response, my_test.listofanswer)
+           self.assertIn("tez", my_test.listofanswer)
 
 if __name__ == '__main__':
     unittest
